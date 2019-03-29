@@ -8,8 +8,9 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   margin: 0;
-/*  background-image: url("bgtile.png");
-  background-repeat: repeat-x;*/
+  background-image: url("../img/bgtile.png");
+  background-repeat: repeat-x;
+/*  background-image: linear-gradient(to bottom, #1C5380 38%, #FFFFFF 38%);*/
 }
 
 .container {
