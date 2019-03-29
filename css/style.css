@@ -8,28 +8,41 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   margin: 0;
-  background-image: url("../img/bgtile.png");
-  background-repeat: repeat-x;
-/*  background-image: linear-gradient(to bottom, #1C5380 38%, #FFFFFF 38%);*/
+/*  background-image: url("../img/bgtile.png");
+  background-repeat: repeat-x;*/
+  background-image: linear-gradient(to bottom, #577EA1 30%, #396287 40%, #FFFFFF 38%);
+  background-repeat: no-repeat;
 }
 
 .container {
-margin: 50px 150px;
-padding: 20px;
+margin: 50px 200px;
+padding: 25px;
 display: flex;
 flex-direction: row;
 }
 
 .content {
-  padding: 50px 100px;
+  padding: 50px 60px;
 }
 
 footer {
     text-align: center;
 }
 
+.text {
+  background-image: linear-gradient(to bottom, #FFFFFF 40%, #FFFFFF 38%);
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  padding: 10px;
+}
+
 h2 {
   color: #06365f;
+  padding: 5px 15px;
+}
+
+p {
+  padding: 5px 15px;
 }
 
 a {
@@ -37,5 +50,5 @@ a {
 }
 
 img {
-  padding-right: 20px;
+  padding: 5px 0px 5px 25px;
 }
